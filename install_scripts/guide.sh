@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+echo "Test the storage service"
+echo "The storage service runs as a separate web application from the Archivematica dashboard. Go to the following link in a web browser:"
+echo "http://localhost:8000"
+echo ""
+echo "log in as user: test password: test"
+echo ""
+echo "Create a new administrative user in the Storage service"
+echo "The storage service has its own set of users. In the User menu in the Administrative tab of the storage service, add at least one administrative user, and delete or modify the test user."
+echo ""
+echo "Test the dashboard"
+echo "You must login to the Archivematica dashboard and finish the installation in a web browser:"
+echo "http://localhost:8080"
+echo ""
+echo "When you log in your installation will be registered for full Format Policy Registry interoperability."
