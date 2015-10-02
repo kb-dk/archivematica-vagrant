@@ -20,9 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     v.cpus = 2
   end
 
-  shared_dir = "/vagrant"
-
-  #config.vm.provision :shell, :path=>"./install_scripts/bootstrap.sh", :args=>shared_dir
+  config.vm.provision :shell, :path=>"./install_scripts/bootstrap.sh"
 
 end
 
