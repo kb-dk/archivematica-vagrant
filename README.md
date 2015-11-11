@@ -1,8 +1,10 @@
 An Archivematica instance running on 64-bit Ubuntu 14.04
-using 4 GB RAM and 2 CPU's.
+using 4 GB RAM and 2 CPU's configured according to
+
+https://www.archivematica.org/en/docs/archivematica-1.4/admin-manual/installation/installation/#install-new
 
 You will need the newest release of vagrant and virtualbox
-installed.
+installed on the host system first.
 
 Use
 

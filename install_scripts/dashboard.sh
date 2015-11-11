@@ -14,6 +14,7 @@ sudo /etc/init.d/apache2 restart
 echo "# Updating virus database - some mirrors are slow."
 sudo freshclam
 sudo /etc/init.d/clamav-daemon start
+sudo update-rc.d elasticsearch defaults 95 10 # elasticsearch not enabled by default
 sudo /etc/init.d/elasticsearch restart
 sudo /etc/init.d/gearman-job-server restart
 sudo start archivematica-mcp-server
